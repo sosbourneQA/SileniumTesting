@@ -51,7 +51,7 @@ public class SeleniumWithExtentReportTest {
     }
 
     @Test
-    public void takeScreenShow() throws IOException {
+    public void takeScreenShot() throws IOException {
         test = report.startTest("Checking QA website logo is displayed");
         driver.manage().window().maximize();
         test.log(LogStatus.INFO, "Started chrome browser and made it fullscreen");
