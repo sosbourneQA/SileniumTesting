@@ -47,12 +47,7 @@ public class MyStoreTest {
         assertTrue(cartPopUp.isDisplayed());
 
 
-
-//        WebElement dresses = driver.findElement(By.partialLinkText("Dresses"));
-//        dresses.click();
-
-
-
+        // code for checkout
 
 //        WebElement login = driver.findElement(By.className("login"));
 //        login.click();
